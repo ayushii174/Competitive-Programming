@@ -1,0 +1,9 @@
+average1 = int(input("enter the number:"))
+average2 = int(input("enter the number:"))
+average3 = int(input("enter the number:"))
+average4 = int(input("enter the number:"))
+average5 = int(input("enter the number:"))
+
+sum = average1+ average2+ average3+ average4+ average5
+average = sum % 5
+print(average)
