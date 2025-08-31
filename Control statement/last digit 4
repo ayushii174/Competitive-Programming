@@ -1,0 +1,11 @@
+# Read a number from the user
+number = int(input("Enter a number: "))
+
+# Get the last digit using modulo
+lastdigit = abs(number) % 10 
+
+# Check if the last digit is 4
+if lastdigit == 4:
+    print(f"The lastdigit of {number} is 4.")
+else:
+    print(f"The lastdigit of {number} is not 4.")
