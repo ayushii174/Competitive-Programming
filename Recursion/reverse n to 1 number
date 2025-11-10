@@ -1,0 +1,7 @@
+def print_n_to_one(n):
+    if n <= 0:
+        return
+    print(n, end=' ')
+    print_n_to_one(n - 1)
+n = int(input("Enter N: "))
+print_n_to_one(n)
